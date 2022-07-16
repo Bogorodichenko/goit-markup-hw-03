@@ -23,6 +23,7 @@ body {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    margin: 0 auto;
     /* outline: 1px solid #2196F3; */
 }
 
@@ -165,6 +166,8 @@ body {
 .hero {
     background-color: #2F303A;
     margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
     /* outline: 1px solid tomato; */
 
 }
@@ -351,6 +354,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--text-title-color);
     text-align: center;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -360,6 +364,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     text-align: center;
+    margin-top: 0;
 }
 
 /* ФУТЕР */
@@ -370,6 +375,8 @@ body {
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -378,7 +385,6 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .address {
@@ -391,8 +397,27 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 9px;
+
 }
+
+.footer-contact-links {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-contact-links>.item {
+    margin-bottom: 9px;
+}
+
+.footer-contact-links>.item:last-child {
+    margin-bottom: 0;
+}
+
 
 .footer-contact-link {
     text-decoration: none;
@@ -412,6 +437,9 @@ body {
 /* ПОРТФОЛІО */
 .main {
     background-color: var(--primary-background-color);
+}
+
+.filters {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -420,6 +448,9 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .filter-button {
@@ -432,9 +463,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 6px 22px;
     margin-right: 8px;
-    margin-bottom: 50px;
     cursor: pointer;
 }
 
@@ -454,6 +484,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-top: 0;
+    padding-left: 0;
     /* background-color: teal; */
 }
 
@@ -503,6 +535,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 0;
     margin-bottom: 4px;
 }
 
